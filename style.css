@@ -9,6 +9,9 @@ body{
     background-size: cover;
     background-position: center;
     background-blend-mode: multiply;
+    display: block;
+    overflow: auto;
+    overflow-x: hidden;
 }
 h1{
     letter-spacing: 4px;
@@ -17,7 +20,8 @@ h1{
     margin-top: 40px;
 }
 .container{
-    width: 450px;
+    max-width: 450px;
+    min-width:70px
     background: rgba(0, 0, 0, 0.1);
     color: rgb(221, 210, 210);
     padding: 40px;
